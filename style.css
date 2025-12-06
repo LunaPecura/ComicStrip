@@ -1,43 +1,41 @@
-.comicContainer{
-    border: solid black;
-    margin: 90px;
-    padding: 10px;
-}
-
-.topText{
-    border: solid red;
-    font-size: 32px;
-    text-align: center;
-}
-
-.section{
-    border: solid purple;
-    width: 33%;
-    margin: 6px;
-}
-
-.pic{
-    border: solid blue;
-}
-
-.miniText{
-    border: solid green;
-    margin: 1px;
-}
-
-.rowOne{
-    display: flex;
-    height: 40%;
-    margin: 1em;
-}
-
-.rowTwo{
-    display: flex;
-    height: 40%;
-    margin: 1em;
-}
-
-.pic{
+img{
     width: 100%;
     height: 100%;
 }
+
+.mainContainer{
+    border: solid black;
+    margin: 2em;
+    padding: 1em;
+    height: 100%;
+}
+
+.heading{
+    border: solid mediumpurple;
+    font-size: 32px;
+    text-align: center;
+    margin: 1px;
+}
+
+.row{
+    display: flex;
+    border: solid lightseagreen;
+    margin: 1px;
+}
+
+.section{
+    border: solid hotpink;
+    width: 33%;
+    margin: 1px;
+}
+
+.sectionImage{
+    border: solid forestgreen;
+    margin: 1px;
+}
+
+.sectionText{
+    border: solid goldenrod;
+    margin: 1px;
+}
+
